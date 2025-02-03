@@ -4,4 +4,8 @@ Admin users will be able to add stocks to the market and keep track of the stock
 
 The stock exchange will have limited hours along with other functionality.
 
-This project will be created with React, Github, and AWS technologies for hosting. AWS will also be used to create a database for user data and stock information. Users will be protected with verification. 
+This project will be created with React, Github, and AWS technologies for hosting. 
+
+AWS will also be used to create a database for user data and stock information. 
+
+Users will be protected with verification. 
