@@ -10,14 +10,3 @@ AWS will also be used to create a database for user data and stock information.
 
 Users will be protected with verification. 
 
-<<<<<<< Updated upstream
-hello.
-
-<<<<<<< Updated upstream
-Howdy.
-
-
-Hello 2 you too
-=======
->>>>>>> Stashed changes
-
