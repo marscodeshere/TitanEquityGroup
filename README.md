@@ -9,3 +9,5 @@ This project will be created with React, Github, and AWS technologies for hostin
 AWS will also be used to create a database for user data and stock information. 
 
 Users will be protected with verification. 
+
+hello.
