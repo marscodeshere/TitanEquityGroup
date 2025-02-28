@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+This is a final project to create a stock website that allows users to participate in a stock exchange.
+
+Admin users will be able to add stocks to the market and keep track of the stocks that exist.
+
+The stock exchange will have limited hours along with other functionality.
+
+This project will be created with React, Github, and AWS technologies for hosting. 
+
+AWS will also be used to create a database for user data and stock information. 
+
+Users will be protected with verification. 
+
+Changes.
+>>>>>>> 3df2c40b0c09238b40a5289bf037c4a6f91daf7c
