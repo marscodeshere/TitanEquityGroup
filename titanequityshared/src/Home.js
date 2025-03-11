@@ -1,6 +1,7 @@
 import React from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import Card from "react-bootstrap/Card";
+
+import Button from "react-bootstrap/Button";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 
 const marketData = [
@@ -43,7 +44,7 @@ export default function Home() {
 
       {/* Market Overview */}
       <Card className="w-full max-w-3xl p-4 mb-8">
-        <CardContent>
+        
           <h2 className="text-xl font-semibold mb-2">Market Snapshot</h2>
           <ResponsiveContainer width="100%" height={200}>
             <LineChart data={marketData}>
@@ -53,7 +54,7 @@ export default function Home() {
               <Line type="monotone" dataKey="value" stroke="#3b82f6" strokeWidth={2} />
             </LineChart>
           </ResponsiveContainer>
-        </CardContent>
+        
       </Card>
 
       {/* Features Section */}
@@ -64,10 +65,10 @@ export default function Home() {
           { title: "Market Insights", desc: "AI-driven analytics." },
         ].map((feature, index) => (
           <Card key={index} className="p-4 text-center">
-            <CardContent>
+            
               <h3 className="text-lg font-semibold">{feature.title}</h3>
               <p className="text-gray-500 text-sm">{feature.desc}</p>
-            </CardContent>
+            
           </Card>
         ))}
       </div>
