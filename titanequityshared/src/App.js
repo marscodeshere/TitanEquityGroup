@@ -12,9 +12,9 @@ export default function App() {
 
   return (
     <Router>
-      <Nav variant="tabs" defaultActiveKey="/home" width="100%" bg="dark" data-bs-theme="dark" className="bg-body-tertiary">
+      <Nav variant="tabs" width="100%" bg="dark" data-bs-theme="dark" className="bg-body-tertiary">
         <Nav.Item>
-          <NavLink to="/home" className="nav-link">Titan Equity Group</NavLink>
+          <NavLink to="/" className="nav-link">Titan Equity Group</NavLink>
         </Nav.Item>
         <Nav.Item>
           <NavLink eventKey="login" to="/login" className="nav-link">Login/SignUp</NavLink>
@@ -34,7 +34,7 @@ export default function App() {
       </Nav>
 
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />}/>
         <Route path="/portfolio" element={<Portfolio />}/>
         <Route path="/market" element={<Market />}/>
