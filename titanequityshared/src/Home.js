@@ -44,7 +44,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="text-center mb-4">
         <h1 className="fw-bold">Your Wealth, Your Future -- Powered by Titan.</h1>
-        <p className="text-muted">Only the strong thrive. Join the pride.</p>
+        <p className="text-muted">Rise Above. Invest Like a Titan.</p>
         <Button variant="primary" size="lg">Get Started</Button>
       </div>
 
