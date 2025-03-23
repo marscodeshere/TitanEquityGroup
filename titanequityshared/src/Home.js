@@ -22,6 +22,21 @@ const stockTickerData = [
   { symbol: "TSLA", price: 720.22, change: "+2.1%" },
   { symbol: "AMZN", price: 3500.99, change: "-1.2%" },
   { symbol: "MSFT", price: 305.15, change: "+0.6%" },
+  { symbol: "NFLX", price: 395.12, change: "+1.3%" },
+  { symbol: "NVDA", price: 670.45, change: "-0.4%" },
+  { symbol: "META", price: 315.67, change: "+2.0%" },
+  { symbol: "BABA", price: 203.88, change: "-1.1%" },
+  { symbol: "INTC", price: 26.75, change: "+0.9%" },
+  { symbol: "ORCL", price: 93.21, change: "-0.7%" },
+  { symbol: "PYPL", price: 76.44, change: "+1.8%" },
+  { symbol: "ADBE", price: 590.35, change: "-2.3%" },
+  { symbol: "CRM", price: 245.60, change: "+0.5%" },
+  { symbol: "UBER", price: 48.11, change: "+3.2%" },
+  { symbol: "LYFT", price: 10.94, change: "-0.6%" },
+  { symbol: "SHOP", price: 180.25, change: "+1.1%" },
+  { symbol: "SQ", price: 78.55, change: "-1.4%" },
+  { symbol: "ROKU", price: 72.38, change: "+2.7%" },
+  { symbol: "COIN", price: 162.91, change: "-0.9%" },
 ];
 
 export default function Home() {
