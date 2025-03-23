@@ -1,0 +1,924 @@
+{
+  "stocks": [
+    {
+      "id": "1",
+      "ticker": "AAPL",
+      "companyName": "Apple Inc.",
+      "price": 178.44,
+      "volume": 3000000
+    },
+    {
+      "id": "2",
+      "ticker": "TSLA",
+      "companyName": "Tesla Inc.",
+      "price": 200.12,
+      "volume": 1500000
+    },
+    {
+      "id": "3",
+      "ticker": "GOOG",
+      "companyName": "Alphabet Inc.",
+      "price": 2750.65,
+      "volume": 2000000
+    },
+    {
+      "id": "4",
+      "ticker": "MSFT",
+      "companyName": "Microsoft Corp.",
+      "price": 312,
+      "volume": 3700000
+    },
+    {
+      "id": "5",
+      "ticker": "AMZN",
+      "companyName": "Amazon.com Inc.",
+      "price": 3450.12,
+      "volume": 2100000
+    },
+    {
+      "id": "6",
+      "ticker": "NFLX",
+      "companyName": "Netflix Inc.",
+      "price": 492.33,
+      "volume": 950000
+    },
+    {
+      "id": "7",
+      "ticker": "NVDA",
+      "companyName": "NVIDIA Corp.",
+      "price": 678.12,
+      "volume": 4800000
+    },
+    {
+      "id": "8",
+      "ticker": "FB",
+      "companyName": "Meta Platforms",
+      "price": 362.44,
+      "volume": 2900000
+    },
+    {
+      "id": "9",
+      "ticker": "BABA",
+      "companyName": "Alibaba Group",
+      "price": 210.65,
+      "volume": 1800000
+    },
+    {
+      "id": "10",
+      "ticker": "INTC",
+      "companyName": "Intel Corp.",
+      "price": 24.26,
+      "volume": 3000000
+    },
+    {
+      "id": "11",
+      "ticker": "ORCL",
+      "companyName": "Oracle Corp.",
+      "price": 87.44,
+      "volume": 1200000
+    },
+    {
+      "id": "12",
+      "ticker": "PYPL",
+      "companyName": "PayPal Holdings",
+      "price": 148.12,
+      "volume": 1150000
+    },
+    {
+      "id": "13",
+      "ticker": "ADBE",
+      "companyName": "Adobe Inc.",
+      "price": 505.67,
+      "volume": 870000
+    },
+    {
+      "id": "14",
+      "ticker": "CRM",
+      "companyName": "Salesforce Inc.",
+      "price": 253.21,
+      "volume": 1340000
+    },
+    {
+      "id": "15",
+      "ticker": "UBER",
+      "companyName": "Uber Technologies",
+      "price": 45.98,
+      "volume": 5600000
+    },
+    {
+      "id": "16",
+      "ticker": "LYFT",
+      "companyName": "Lyft Inc.",
+      "price": 11.45,
+      "volume": 890000
+    },
+    {
+      "id": "17",
+      "ticker": "SHOP",
+      "companyName": "Shopify Inc.",
+      "price": 165.22,
+      "volume": 990000
+    },
+    {
+      "id": "18",
+      "ticker": "SQ",
+      "companyName": "Block Inc.",
+      "price": 70.15,
+      "volume": 1100000
+    },
+    {
+      "id": "19",
+      "ticker": "ZM",
+      "companyName": "Zoom Video",
+      "price": 68.77,
+      "volume": 820000
+    },
+    {
+      "id": "20",
+      "ticker": "TWTR",
+      "companyName": "Twitter Inc.",
+      "price": 53.21,
+      "volume": 1400000
+    },
+    {
+      "id": "21",
+      "ticker": "SPOT",
+      "companyName": "Spotify Technology",
+      "price": 289.76,
+      "volume": 440000
+    },
+    {
+      "id": "22",
+      "ticker": "ROKU",
+      "companyName": "Roku Inc.",
+      "price": 66.33,
+      "volume": 720000
+    },
+    {
+      "id": "23",
+      "ticker": "SNAP",
+      "companyName": "Snap Inc.",
+      "price": 9.87,
+      "volume": 1500000
+    },
+    {
+      "id": "24",
+      "ticker": "COIN",
+      "companyName": "Coinbase Global",
+      "price": 135.45,
+      "volume": 940000
+    },
+    {
+      "id": "25",
+      "ticker": "PLTR",
+      "companyName": "Palantir Technologies",
+      "price": 17.55,
+      "volume": 3600000
+    },
+    {
+      "id": "26",
+      "ticker": "NET",
+      "companyName": "Cloudflare Inc.",
+      "price": 72.34,
+      "volume": 610000
+    },
+    {
+      "id": "27",
+      "ticker": "CRWD",
+      "companyName": "CrowdStrike Holdings",
+      "price": 198.11,
+      "volume": 950000
+    },
+    {
+      "id": "28",
+      "ticker": "OKTA",
+      "companyName": "Okta Inc.",
+      "price": 84.12,
+      "volume": 720000
+    },
+    {
+      "id": "29",
+      "ticker": "ZS",
+      "companyName": "Zscaler Inc.",
+      "price": 125.09,
+      "volume": 630000
+    },
+    {
+      "id": "30",
+      "ticker": "DDOG",
+      "companyName": "Datadog Inc.",
+      "price": 105.44,
+      "volume": 840000
+    },
+    {
+      "id": "31",
+      "ticker": "MDB",
+      "companyName": "MongoDB Inc.",
+      "price": 387.12,
+      "volume": 470000
+    },
+    {
+      "id": "32",
+      "ticker": "FSLY",
+      "companyName": "Fastly Inc.",
+      "price": 18.12,
+      "volume": 380000
+    },
+    {
+      "id": "33",
+      "ticker": "ASAN",
+      "companyName": "Asana Inc.",
+      "price": 12.34,
+      "volume": 410000
+    },
+    {
+      "id": "34",
+      "ticker": "DOCU",
+      "companyName": "DocuSign Inc.",
+      "price": 52.44,
+      "volume": 700000
+    },
+    {
+      "id": "35",
+      "ticker": "WMT",
+      "companyName": "Walmart Inc.",
+      "price": 147.55,
+      "volume": 2200000
+    },
+    {
+      "id": "36",
+      "ticker": "TGT",
+      "companyName": "Target Corp.",
+      "price": 163.78,
+      "volume": 1500000
+    },
+    {
+      "id": "37",
+      "ticker": "COST",
+      "companyName": "Costco Wholesale",
+      "price": 493.99,
+      "volume": 980000
+    },
+    {
+      "id": "38",
+      "ticker": "BA",
+      "companyName": "Boeing Co.",
+      "price": 217.65,
+      "volume": 800000
+    },
+    {
+      "id": "39",
+      "ticker": "GE",
+      "companyName": "General Electric",
+      "price": 106.88,
+      "volume": 2400000
+    },
+    {
+      "id": "40",
+      "ticker": "GM",
+      "companyName": "General Motors",
+      "price": 39.34,
+      "volume": 1700000
+    },
+    {
+      "id": "41",
+      "ticker": "F",
+      "companyName": "Ford Motor Co.",
+      "price": 12.88,
+      "volume": 3300000
+    },
+    {
+      "id": "42",
+      "ticker": "PEP",
+      "companyName": "PepsiCo Inc.",
+      "price": 178.44,
+      "volume": 600000
+    },
+    {
+      "id": "43",
+      "ticker": "KO",
+      "companyName": "Coca-Cola Co.",
+      "price": 61.22,
+      "volume": 1300000
+    },
+    {
+      "id": "44",
+      "ticker": "MCD",
+      "companyName": "McDonald's Corp.",
+      "price": 295.56,
+      "volume": 890000
+    },
+    {
+      "id": "45",
+      "ticker": "SBUX",
+      "companyName": "Starbucks Corp.",
+      "price": 103.45,
+      "volume": 750000
+    },
+    {
+      "id": "46",
+      "ticker": "NKE",
+      "companyName": "Nike Inc.",
+      "price": 97.66,
+      "volume": 1120000
+    },
+    {
+      "id": "47",
+      "ticker": "DIS",
+      "companyName": "Walt Disney Co.",
+      "price": 94.33,
+      "volume": 2200000
+    },
+    {
+      "id": "48",
+      "ticker": "CVX",
+      "companyName": "Chevron Corp.",
+      "price": 154.22,
+      "volume": 1200000
+    },
+    {
+      "id": "49",
+      "ticker": "XOM",
+      "companyName": "Exxon Mobil Corp.",
+      "price": 115.33,
+      "volume": 1800000
+    },
+    {
+      "id": "50",
+      "ticker": "BP",
+      "companyName": "BP PLC",
+      "price": 35.66,
+      "volume": 2100000
+    },
+    {
+      "id": "bfde",
+      "ticker": "DELL",
+      "companyName": "Dell Technologies Inc.",
+      "price": 97.57,
+      "volume": 675000
+    }
+  ],
+  "marketHours": {
+    "open": "09:30",
+    "close": "16:00"
+  },
+  "adminLogs": [
+    {
+      "id": "99c3",
+      "timestamp": "2025-03-22T20:58:44.496Z",
+      "action": "Logged in",
+      "user": "admin@titan.com"
+    },
+    {
+      "id": "e866",
+      "timestamp": "2025-03-22T20:58:59.649Z",
+      "action": "Edited stock BP",
+      "user": "admin@titan.com"
+    },
+    {
+      "id": "3943",
+      "timestamp": "2025-03-22T20:59:14.218Z",
+      "action": "Logged in",
+      "user": "admin@titan.com"
+    },
+    {
+      "id": "580d",
+      "timestamp": "2025-03-22T21:00:31.783Z",
+      "action": "Edited stock INTC",
+      "user": "admin@titan.com"
+    },
+    {
+      "id": "fb5f",
+      "timestamp": "2025-03-22T21:00:45.810Z",
+      "action": "Logged in",
+      "user": "admin@titan.com"
+    },
+    {
+      "id": "1471",
+      "timestamp": "2025-03-22T21:00:55.877Z",
+      "action": "Logged out",
+      "user": "admin@titan.com"
+    },
+    {
+      "id": "5120",
+      "timestamp": "2025-03-22T21:01:05.259Z",
+      "action": "Logged in",
+      "user": "admin@titan.com"
+    },
+    {
+      "id": "a2a6",
+      "timestamp": "2025-03-22T21:11:31.252Z",
+      "action": "Logged out",
+      "user": "admin@titan.com"
+    },
+    {
+      "id": "9021",
+      "timestamp": "2025-03-22T21:11:56.744Z",
+      "action": "Logged in",
+      "user": "admin@titan.com"
+    },
+    {
+      "id": "ce7c",
+      "timestamp": "2025-03-22T21:21:08.163Z",
+      "action": "Logged in",
+      "user": "admin@titan.com"
+    },
+    {
+      "id": "e7c5",
+      "timestamp": "2025-03-22T21:44:57.296Z",
+      "action": "Logged in",
+      "user": "ryan@titan.com"
+    },
+    {
+      "id": "679d",
+      "timestamp": "2025-03-22T21:46:02.999Z",
+      "action": "Logged out",
+      "user": "ryan@titan.com"
+    },
+    {
+      "id": "db6f",
+      "timestamp": "2025-03-22T21:46:33.002Z",
+      "action": "Logged in",
+      "user": "marley@titan.com"
+    },
+    {
+      "id": "30d0",
+      "timestamp": "2025-03-22T21:46:36.191Z",
+      "action": "Logged out",
+      "user": "marley@titan.com"
+    },
+    {
+      "id": "2ea3",
+      "timestamp": "2025-03-22T21:46:44.075Z",
+      "action": "Logged in",
+      "user": "caleb@titan.com"
+    },
+    {
+      "id": "f08d",
+      "timestamp": "2025-03-22T21:48:17.664Z",
+      "action": "Logged in",
+      "user": "ryan@titan.com"
+    },
+    {
+      "id": "f6a7",
+      "timestamp": "2025-03-22T21:49:40.988Z",
+      "action": "Logged in",
+      "user": "admin@titan.com"
+    },
+    {
+      "id": "9b87",
+      "timestamp": "2025-03-22T21:52:15.034Z",
+      "action": "Logged out",
+      "user": "admin@titan.com"
+    },
+    {
+      "id": "4427",
+      "timestamp": "2025-03-22T21:52:21.209Z",
+      "action": "Logged in",
+      "user": "ryan@titan.com"
+    },
+    {
+      "id": "cc18",
+      "timestamp": "2025-03-22T21:52:37.378Z",
+      "action": "Edited stock BP",
+      "user": "ryan@titan.com"
+    },
+    {
+      "id": "b8d9",
+      "timestamp": "2025-03-22T21:52:53.239Z",
+      "action": "Logged in",
+      "user": "marley@titan.com"
+    },
+    {
+      "id": "6b34",
+      "timestamp": "2025-03-22T21:53:56.784Z",
+      "action": "Logged out",
+      "user": "marley@titan.com"
+    },
+    {
+      "id": "7a0f",
+      "timestamp": "2025-03-22T21:54:05.056Z",
+      "action": "Logged in",
+      "user": "caleb@titan.com"
+    },
+    {
+      "id": "dd9c",
+      "timestamp": "2025-03-22T21:54:33.483Z",
+      "action": "Logged out",
+      "user": "caleb@titan.com"
+    },
+    {
+      "id": "eb10",
+      "timestamp": "2025-03-22T21:54:40.783Z",
+      "action": "Logged in",
+      "user": "ryan@titan.com"
+    },
+    {
+      "id": "9a25",
+      "timestamp": "2025-03-22T21:55:20.839Z",
+      "action": "Logged out",
+      "user": "ryan@titan.com"
+    },
+    {
+      "id": "9c09",
+      "timestamp": "2025-03-22T21:55:28.893Z",
+      "action": "Logged in",
+      "user": "caleb@titan.com"
+    },
+    {
+      "id": "83c2",
+      "timestamp": "2025-03-22T21:55:39.250Z",
+      "action": "Edited stock MSFT",
+      "user": "caleb@titan.com"
+    },
+    {
+      "id": "31bb",
+      "timestamp": "2025-03-22T21:55:42.966Z",
+      "action": "Logged out",
+      "user": "caleb@titan.com"
+    },
+    {
+      "id": "0f0b",
+      "timestamp": "2025-03-22T21:55:50.842Z",
+      "action": "Logged in",
+      "user": "marley@titan.com"
+    },
+    {
+      "id": "01a6",
+      "timestamp": "2025-03-22T22:27:15.739Z",
+      "action": "Logged out",
+      "user": "marley@titan.com",
+      "details": ""
+    },
+    {
+      "id": "dc69",
+      "timestamp": "2025-03-22T22:29:50.674Z",
+      "action": "Logged in",
+      "user": "ryan@titan.com",
+      "details": ""
+    },
+    {
+      "id": "a54c",
+      "timestamp": "2025-03-22T22:30:03.566Z",
+      "action": "Edited stock BP",
+      "user": "ryan@titan.com",
+      "details": "price: \"35.66\" ➜ \"40.66\""
+    },
+    {
+      "id": "473b",
+      "timestamp": "2025-03-22T22:30:07.120Z",
+      "action": "Logged out",
+      "user": "ryan@titan.com",
+      "details": ""
+    },
+    {
+      "id": "df16",
+      "timestamp": "2025-03-22T22:30:14.614Z",
+      "action": "Logged in",
+      "user": "marley@titan.com",
+      "details": ""
+    },
+    {
+      "id": "f2b6",
+      "timestamp": "2025-03-22T22:30:36.117Z",
+      "action": "Edited stock BP",
+      "user": "marley@titan.com",
+      "details": "price: \"40.66\" ➜ \"35.66\""
+    },
+    {
+      "id": "d1ef",
+      "timestamp": "2025-03-22T22:30:44.052Z",
+      "action": "Logged out",
+      "user": "marley@titan.com",
+      "details": ""
+    },
+    {
+      "id": "d845",
+      "timestamp": "2025-03-22T22:30:51.189Z",
+      "action": "Logged in",
+      "user": "caleb@titan.com",
+      "details": ""
+    },
+    {
+      "id": "4eba",
+      "timestamp": "2025-03-22T22:32:18.250Z",
+      "action": "Added stock DELL",
+      "user": "caleb@titan.com",
+      "details": ""
+    },
+    {
+      "id": "f127",
+      "timestamp": "2025-03-22T22:32:26.878Z",
+      "action": "Logged out",
+      "user": "caleb@titan.com",
+      "details": ""
+    },
+    {
+      "id": "415d",
+      "timestamp": "2025-03-22T22:32:35.137Z",
+      "action": "Logged in",
+      "user": "ryan@titan.com",
+      "details": ""
+    },
+    {
+      "id": "5c28",
+      "timestamp": "2025-03-22T22:43:37.310Z",
+      "action": "Logged out",
+      "user": "ryan@titan.com",
+      "details": ""
+    },
+    {
+      "id": "423a",
+      "timestamp": "2025-03-22T22:43:39.789Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "4f34",
+      "timestamp": "2025-03-22T22:43:40.863Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "861d",
+      "timestamp": "2025-03-22T22:43:41.520Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "c51b",
+      "timestamp": "2025-03-22T22:43:42.025Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "1850",
+      "timestamp": "2025-03-22T22:43:42.185Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "70c0",
+      "timestamp": "2025-03-22T22:43:42.795Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "7fdf",
+      "timestamp": "2025-03-22T22:43:46.542Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "b807",
+      "timestamp": "2025-03-22T22:50:42.235Z",
+      "action": "Logged in",
+      "user": "ryan@titan.com",
+      "details": ""
+    },
+    {
+      "id": "eb2a",
+      "timestamp": "2025-03-22T22:53:49.928Z",
+      "action": "Logged out",
+      "user": "ryan@titan.com",
+      "details": ""
+    },
+    {
+      "id": "2864",
+      "timestamp": "2025-03-22T22:53:51.421Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "4b94",
+      "timestamp": "2025-03-22T22:53:52.285Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "8346",
+      "timestamp": "2025-03-22T22:53:52.720Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "6eab",
+      "timestamp": "2025-03-22T22:53:52.880Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "ff92",
+      "timestamp": "2025-03-22T22:53:53.025Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "6b94",
+      "timestamp": "2025-03-22T22:53:53.168Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "43e5",
+      "timestamp": "2025-03-22T22:53:53.328Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "9aa5",
+      "timestamp": "2025-03-22T22:53:53.489Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "d99a",
+      "timestamp": "2025-03-22T22:53:53.632Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "49d4",
+      "timestamp": "2025-03-22T22:53:53.760Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "95bb",
+      "timestamp": "2025-03-22T22:53:53.904Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "dcd6",
+      "timestamp": "2025-03-22T22:53:54.129Z",
+      "action": "Logged out",
+      "user": "",
+      "details": ""
+    },
+    {
+      "id": "06ca",
+      "timestamp": "2025-03-22T22:55:14.652Z",
+      "action": "Logged in",
+      "user": "ryan@titan.com",
+      "details": ""
+    },
+    {
+      "id": "77dc",
+      "timestamp": "2025-03-22T22:58:46.790Z",
+      "action": "Logged out",
+      "user": "ryan@titan.com",
+      "details": ""
+    },
+    {
+      "id": "34e3",
+      "timestamp": "2025-03-22T22:58:54.194Z",
+      "action": "Logged in",
+      "user": "ryan@titan.com",
+      "details": ""
+    },
+    {
+      "id": "e9e8",
+      "timestamp": "2025-03-22T23:02:45.048Z",
+      "action": "Logged out",
+      "user": "ryan@titan.com",
+      "details": ""
+    },
+    {
+      "id": "3577",
+      "timestamp": "2025-03-22T23:02:57.138Z",
+      "action": "Logged in",
+      "user": "marley@titan.com",
+      "details": ""
+    },
+    {
+      "id": "e8c1",
+      "timestamp": "2025-03-22T23:12:39.335Z",
+      "action": "Updated market hours",
+      "user": "marley@titan.com",
+      "details": ""
+    },
+    {
+      "id": "1f9a",
+      "timestamp": "2025-03-22T23:12:46.144Z",
+      "action": "Logged out",
+      "user": "marley@titan.com",
+      "details": ""
+    },
+    {
+      "id": "edfe",
+      "timestamp": "2025-03-22T23:12:53.103Z",
+      "action": "Logged in",
+      "user": "ryan@titan.com",
+      "details": ""
+    },
+    {
+      "id": "fefc",
+      "timestamp": "2025-03-23T00:04:46.273Z",
+      "action": "Logged out",
+      "user": "ryan@titan.com",
+      "details": ""
+    },
+    {
+      "id": "844f",
+      "timestamp": "2025-03-23T00:04:53.651Z",
+      "action": "Logged in",
+      "user": "marley@titan.com",
+      "details": ""
+    },
+    {
+      "id": "a170",
+      "timestamp": "2025-03-23T00:05:10.407Z",
+      "action": "Updated market hours",
+      "user": "marley@titan.com",
+      "details": ""
+    },
+    {
+      "id": "351a",
+      "timestamp": "2025-03-23T00:05:14.564Z",
+      "action": "Logged out",
+      "user": "marley@titan.com",
+      "details": ""
+    },
+    {
+      "id": "2730",
+      "timestamp": "2025-03-23T00:05:21.073Z",
+      "action": "Logged in",
+      "user": "ryan@titan.com",
+      "details": ""
+    },
+    {
+      "id": "bff1",
+      "timestamp": "2025-03-23T00:31:41.626Z",
+      "action": "Logged out",
+      "user": "ryan@titan.com",
+      "details": ""
+    },
+    {
+      "id": "2a78",
+      "timestamp": "2025-03-23T00:31:49.005Z",
+      "action": "Logged in",
+      "user": "caleb@titan.com",
+      "details": ""
+    },
+    {
+      "id": "d7c4",
+      "timestamp": "2025-03-23T00:32:09.799Z",
+      "action": "Updated market hours",
+      "user": "caleb@titan.com",
+      "details": ""
+    },
+    {
+      "id": "5da4",
+      "timestamp": "2025-03-23T00:32:14.767Z",
+      "action": "Logged out",
+      "user": "caleb@titan.com",
+      "details": ""
+    },
+    {
+      "id": "9831",
+      "timestamp": "2025-03-23T00:32:22.038Z",
+      "action": "Logged in",
+      "user": "ryan@titan.com",
+      "details": ""
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "email": "ryan@titan.com",
+      "password": "admin123",
+      "name": "Ryan"
+    },
+    {
+      "id": 2,
+      "email": "caleb@titan.com",
+      "password": "admin123",
+      "name": "Caleb"
+    },
+    {
+      "id": 3,
+      "email": "marley@titan.com",
+      "password": "admin123",
+      "name": "Marley"
+    }
+  ]
+}
